@@ -66,7 +66,7 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-### Terminal Output (EKF & PID Control Feedback)
+### Terminal Output (Terminal output showing autonomous hover position correction. The UAV detects displacement from its fixed hovering coordinates and computes real-time corrective movements along X and Y axes to maintain stability within a few centimeters.)
 <p align="center">
   <img src="images/terminal_output.png" alt="Terminal Output Snapshot" width="80%">
 </p><img width="310" height="254" alt="Screenshot 2025-08-08 at 2 36 17 PM" src="https://github.com/user-attachments/assets/d6fadf53-4448-443e-bf8f-602a0115a7c1" />
