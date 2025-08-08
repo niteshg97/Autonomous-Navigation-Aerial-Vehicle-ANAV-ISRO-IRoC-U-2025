@@ -63,8 +63,19 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-## 📂 Repository Structure
-<img src="images/hover_stability.png" width="60%">
-<img width="1280" height="832" alt="Screenshot 2025-07-28 at 11 04 53 PM" src="https://github.com/user-attachments/assets/a7a715ef-90b5-4816-ba69-90dadea2771b" />
+## 📊 Experimental Results & Findings
+
+### Hovering Position Detection
+<p align="center">
+  <img src="images/hover_detection.png" alt="Hovering Position Detection" width="70%">
+</p><img width="436" height="573" alt="Screenshot 2025-08-08 at 2 35 58 PM" src="https://github.com/user-attachments/assets/655cd03c-0623-4c8c-abae-eb31a82823ff" />
+
+
+---
+
+### Terminal Output (EKF & PID Control Feedback)
+<p align="center">
+  <img src="images/terminal_output.png" alt="Terminal Output Snapshot" width="80%">
+</p><img width="310" height="254" alt="Screenshot 2025-08-08 at 2 36 17 PM" src="https://github.com/user-attachments/assets/8a819151-11c6-4b52-8609-c272f9fad5ee" />
 
 
