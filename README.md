@@ -71,12 +71,19 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
   <img src="images/terminal_output.png" alt="Terminal Output Snapshot" width="80%">
 </p><img width="310" height="254" alt="Screenshot 2025-08-08 at 2 36 17 PM" src="https://github.com/user-attachments/assets/d6fadf53-4448-443e-bf8f-602a0115a7c1" />
 
+
+
 ### Sensor Fusion for Position Tracking
 The UAV’s **IMU and camera position data** are fused using an **Extended Kalman Filter (EKF)** to achieve high-accuracy pose estimation, compensating for sensor noise and drift.
 
 <p align="center">
   <img src="images/sensor_fusion_snapshot.png" alt="IMU + Camera Sensor Fusion Output" width="80%">
 </p><img width="600" height="400" alt="Screenshot 2025-08-08 at 2 50 51 PM" src="https://github.com/user-attachments/assets/0b780328-4fad-4798-a70c-65632ebbf10f" />
+
+
+## 📄 Proposal Report
+[📥 Download Proposal Report (PDF)](https://drive.google.com/file/d/17MBYfCpqsSDF7ySVFGziQSBYt_cyabI9/view?usp=drive_link)
+
 
 
 ### Field Testing Video
