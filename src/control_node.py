@@ -3,21 +3,17 @@ import time
 import math
 import cv2
 import numpy as np
-
 from ekf_2d import EKF2D
 from pid_controller import PID
 from mavlink_controller import MAVLinkController
-
-# Import your YOLO detector and marker helper
-# Make sure hovering_position_estimation.py is in the same folder or accessible via Python path
 from hovering_position_estimation import YOLOv8Detector, draw_fixed_marker
 
 # --- CONFIG ---
-CAMERA_INDEX = 0            # change to 1 if you use external camera / adjust
-PIXEL_TO_METER = 0.001      # calibrate: meters per pixel (e.g., 0.001 m = 0.1 cm per pixel)
-TOLERANCE_M = 0.02          # 2 cm tolerance
-MAX_VEL_MPS = 0.6           # max body-frame velocity command
-MAV_CONNECTION = "udp:127.0.0.1:14540"  # change to your vehicle connection
+CAMERA_INDEX = 0            
+PIXEL_TO_METER = 0.001      
+TOLERANCE_M = 0.02          
+MAX_VEL_MPS = 0.6          
+MAV_CONNECTION = "udp:127.0.0.1:14540"  
 # ----------------
 
 def clamp(v, a, b):
@@ -98,13 +94,10 @@ def main():
             angle_deg = math.degrees(math.atan2(dy_m, dx_m))
 
             # PID: we want to drive displacement to zero -> setpoint 0, measurement is dx_m
-            vx_cmd = pid_x.compute(dx_m, now=time.time())  # command along body x (right)
-            vy_cmd = pid_y.compute(dy_m, now=time.time())  # command along body y (forward/down depending on frame)
+            vx_cmd = pid_x.compute(dx_m, now=time.time())  
+            vy_cmd = pid_y.compute(dy_m, now=time.time())  
 
-            # invert signs if necessary depending on vehicle coordinate frame
-            # For PX4 body NED: x forward, y right, but we sent MAV_FRAME_BODY_NED above (vx,vy are forward,right)
-            # Here we assume dx_m positive means object is to the right, to bring object to center we need to command vy? adapt in field test.
-            # We'll map: body_x = -dy_m (forward/back), body_y = -dx_m (right/left) as an example mapping.
+        
             body_vx = clamp(-dy_m * 1.0 + vx_cmd, -MAX_VEL_MPS, MAX_VEL_MPS)
             body_vy = clamp(-dx_m * 1.0 + vy_cmd, -MAX_VEL_MPS, MAX_VEL_MPS)
 
