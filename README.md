@@ -49,12 +49,6 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-## 📊 Experimental Results & Findings
-> Detailed results are provided in the full project report.  
-> [📄 Download Full Report](https://your-link-to-report.com)
-
-**Highlights:**<img width="576" height="455" alt="Change_detection_UAV" src="https://github.com/user-attachments/assets/132fbbbb-2a5c-4dbd-b189-380177341b17" />
-
 - Stable hover achieved with <±5 cm altitude deviation.
 - EKF improved position estimation accuracy by ~38% over IMU-only measurements.
 - PID tuning reduced oscillations by 45% in altitude control tests.
@@ -73,9 +67,9 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-### Terminal Output (EKF & PID Control Feedback)
+### Terminal Output ()
 <p align="center">
-  <img src="images/terminal_output.png" alt="Terminal Output Snapshot" width="80%">
+  <img src="images/terminal_output.png" alt="Terminal output showing autonomous hover position correction. The UAV detects displacement from its fixed hovering coordinates and computes real-time corrective movements along X and Y axes to maintain stability within a few centimeters." width="80%">
 </p><img width="310" height="254" alt="Screenshot 2025-08-08 at 2 36 17 PM" src="https://github.com/user-attachments/assets/8a819151-11c6-4b52-8609-c272f9fad5ee" />
 
 
