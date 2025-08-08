@@ -1,5 +1,5 @@
 
-#
+#  Kalman filter for 2D position + velocity with optional acceleration input
 
 # src/ekf_2d.py
 import numpy as np
