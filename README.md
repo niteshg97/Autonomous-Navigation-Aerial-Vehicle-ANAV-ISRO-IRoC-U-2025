@@ -77,4 +77,10 @@ The UAV’s **IMU and camera position data** are fused using an **Extended Kalma
 <p align="center">
   <img src="images/sensor_fusion_snapshot.png" alt="IMU + Camera Sensor Fusion Output" width="80%">
 </p><img width="600" height="400" alt="Screenshot 2025-08-08 at 2 50 51 PM" src="https://github.com/user-attachments/assets/0b780328-4fad-4798-a70c-65632ebbf10f" />
+### Field Testing Video
+📹 [Download & Watch Test Video](videos/field_test.mp4)
+
+
+https://github.com/user-attachments/assets/116a5b32-98ef-4751-9b3e-b1c8c57fd74b
+
 
