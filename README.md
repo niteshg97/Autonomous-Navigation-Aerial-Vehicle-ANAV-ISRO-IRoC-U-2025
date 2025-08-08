@@ -56,19 +56,18 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 - Real-time video and telemetry streaming maintained at <120 ms latency.
 
 ---
-
 ## 📊 Experimental Results & Findings
 
 ### Hovering Position Detection
 <p align="center">
   <img src="images/hover_detection.png" alt="Hovering Position Detection" width="70%">
-</p><img width="436" height="573" alt="Screenshot 2025-08-08 at 2 35 58 PM"/>
+</p>
+<img width="436" height="573" alt="Screenshot 2025-08-08 at 2 35 58 PM" src="https://github.com/user-attachments/assets/2b71e9cb-4374-4034-8642-fe82161292be" />
 
 ---
 
-### Terminal Output ()
+### Terminal Output (EKF & PID Control Feedback)
 <p align="center">
-  <img src="images/terminal_output.png" alt="Terminal output showing autonomous hover position correction. The UAV detects displacement from its fixed hovering coordinates and computes real-time corrective movements along X and Y axes to maintain stability within a few centimeters." width="80%">
-</p><img width="310" height="254" alt="Screenshot 2025-08-08 at 2 36 17 PM" />
-
+  <img src="images/terminal_output.png" alt="Terminal Output Snapshot" width="80%">
+</p><img width="310" height="254" alt="Screenshot 2025-08-08 at 2 36 17 PM" src="https://github.com/user-attachments/assets/d6fadf53-4448-443e-bf8f-602a0115a7c1" />
 
