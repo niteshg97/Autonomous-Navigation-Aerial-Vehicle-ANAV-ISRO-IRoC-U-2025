@@ -83,6 +83,9 @@ The UAV’s **IMU and camera position data** are fused using an **Extended Kalma
 
 📹 [Download & Watch Test Video](videos/field_test.mp4)
 
-https://github.com/user-attachments/assets/116a5b32-98ef-4751-9b3e-b1c8c57fd74b
+
+https://github.com/user-attachments/assets/6995f78e-7b34-4497-9d39-2a34067efce0
+
+
 
 
