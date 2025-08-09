@@ -3,6 +3,10 @@
 
 ---
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+![IRoC-U](https://img.shields.io/badge/Event-IRoC--U%202025-lightgrey) ![Topic](https://img.shields.io/badge/Topic-UAV%20%7C%20Autonomy-orange) ![ROS2](https://img.shields.io/badge/ROS%202-Humble-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)
+
+---
 ## 🛠️ Overview
 The **Autonomous Navigation Aerial Vehicle (ANAV)** is a custom-built UAV platform developed for **autonomous landing and safe navigation in uncertain environments**.  
 Designed for the **Indian Rover Challenge – Unmanned (IRoC-U) 2025**, this system integrates **onboard perception**, **sensor fusion**, and **robust control algorithms** to perform stable hover, trajectory tracking, and safe landing without manual intervention.
