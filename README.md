@@ -97,19 +97,11 @@ The UAV’s **IMU and camera position data** are fused using an **Extended Kalma
 ### 📹 Field Testing Video
 [📥 Download & Watch Test Video](videos/field_test.mp4)
 
----
+https://github.com/user-attachments/assets/04bf99ae-63d8-4cba-87f7-3b41b75d950e
 
-## 🛠️ Notes & How to reproduce
-- **Code:** Vision, EKF, and control code available in `/src/` and `/software/`.  
-- **Simulation:** PX4 SITL + Gazebo setup in `/simulation/`.  
-- **Dependencies:** See `requirements.txt` for Python packages; CUDA-enabled drivers for Jetson Xavier NX.  
-- **Run (example):**
-```bash
-# start ROS 2 launch
-ros2 launch anav_launch mission.launch.py
 
-# run control node
-python3 src/control_node.py --config config/default.yaml
+
+
 
 
 
