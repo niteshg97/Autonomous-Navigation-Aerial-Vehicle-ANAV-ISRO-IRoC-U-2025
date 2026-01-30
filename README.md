@@ -1,4 +1,4 @@
-# ⚙️ ANAV — Autonomous Navigation Aerial Vehicle  
+# ANAV — Autonomous Navigation Aerial Vehicle  
 **IRoC-U 2025 | Robotics Club NIT Patna | Team ID: 11318**
 
 ---
@@ -7,7 +7,7 @@
 ![IRoC-U](https://img.shields.io/badge/Event-IRoC--U%202025-lightgrey) ![Topic](https://img.shields.io/badge/Topic-UAV%20%7C%20Autonomy-orange) ![ROS2](https://img.shields.io/badge/ROS%202-Humble-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)
 
 ---
-## 🛠️ Overview
+##  Overview
 The **Autonomous Navigation Aerial Vehicle (ANAV)** is a custom-built UAV platform developed for **autonomous landing and safe navigation in uncertain environments**.  
 Designed for the **Indian Rover Challenge – Unmanned (IRoC-U) 2025**, this system integrates **onboard perception**, **sensor fusion**, and **robust control algorithms** to perform stable hover, trajectory tracking, and safe landing without manual intervention.
 
@@ -21,10 +21,10 @@ The project emphasizes:
 
 ---
 
-## 🧰 System Architecture
+## System Architecture
 ANAV combines **custom hardware** and **modular software** with a strong focus on onboard intelligence.
 
-### ⚙️ Hardware Stack
+###  Hardware Stack
 | Component | Description |
 |-----------|-------------|
 | **Onboard Compute** | NVIDIA Jetson Xavier NX (CUDA-enabled for real-time vision) |
@@ -35,7 +35,7 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 | **Power** | 4S LiPo Battery |
 | **Frame** | Custom UAV frame, optimized for stability |
 
-### 🧰 Software Stack
+### Software Stack
 - **OS / Middleware**: Ubuntu 22.04 LTS + ROS 2 Humble  
 - **Flight Stack**: MAVLink-based control (pymavlink / MAVSDK / MAVROS)  
 - **Perception**: OpenCV (vision-based landing zone detection), CUDA acceleration  
@@ -45,7 +45,7 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 - **Autonomous Take-off, Hover & Landing**  
 - **EKF Sensor Fusion**: Combines IMU + vision for accurate state estimation  
 - **PID Control Optimization**: Tuned for minimal overshoot and steady-state error  
@@ -63,9 +63,9 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-## 📊 Experimental Results & Findings
+##  Experimental Results & Findings
 
-### 🧭 Hovering Position Detection
+###  Hovering Position Detection
 <p align="center">
   <img src="images/hover_detection.png" alt="Hovering Position Detection" width="70%">
 </p>
@@ -73,7 +73,7 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-### 🖥️ Terminal Output  
+###  Terminal Output  
 (Terminal output showing autonomous hover position correction. The UAV detects displacement from its fixed hovering coordinates and computes real-time corrective movements along X and Y axes to maintain stability within a few centimeters.)
 
 <p align="center">
@@ -83,7 +83,7 @@ ANAV combines **custom hardware** and **modular software** with a strong focus o
 
 ---
 
-### 🔧 Sensor Fusion for Position Tracking
+###  Sensor Fusion for Position Tracking
 The UAV’s **IMU and camera position data** are fused using an **Extended Kalman Filter (EKF)** to achieve high-accuracy pose estimation, compensating for sensor noise and drift.
 
 <p align="center">
@@ -93,12 +93,12 @@ The UAV’s **IMU and camera position data** are fused using an **Extended Kalma
 
 ---
 
-## 🧾 Proposal Report
+## Proposal Report
 [📥 Download Proposal Report (PDF)](https://drive.google.com/file/d/17MBYfCpqsSDF7ySVFGziQSBYt_cyabI9/view?usp=drive_link)
 
 ---
 
-### 📹 Field Testing Video
+###  Field Testing Video
 [📥 Download & Watch Test Video](videos/field_test.mp4)
 
 https://github.com/user-attachments/assets/04bf99ae-63d8-4cba-87f7-3b41b75d950e
