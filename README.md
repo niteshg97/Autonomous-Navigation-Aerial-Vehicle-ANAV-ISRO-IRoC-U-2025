@@ -7,17 +7,19 @@
 ![IRoC-U](https://img.shields.io/badge/Event-IRoC--U%202025-lightgrey) ![Topic](https://img.shields.io/badge/Topic-UAV%20%7C%20Autonomy-orange) ![ROS2](https://img.shields.io/badge/ROS%202-Humble-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)
 
 ---
+---
+<p align="center">
+<img width="500" height="500" alt="PM" src="https://github.com/user-attachments/assets/114063a7-0f6f-4354-abc1-5d508cdd8cbc" />
+
+---
+> 🧾 **Full proposal (PDF)** is available in `docs/` — see **Full Proposal** at the end of this README.
+---
 ##  Overview
 The **Autonomous Navigation Aerial Vehicle (ANAV)** is a custom-built UAV platform developed for **autonomous landing and safe navigation in uncertain environments**.  
 Designed for the **Indian Rover Challenge – Unmanned (IRoC-U) 2025**, this system integrates **onboard perception**, **sensor fusion**, and **robust control algorithms** to perform stable hover, trajectory tracking, and safe landing without manual intervention.
 
-> 🧾 **Full proposal (PDF)** is available in `docs/` — see **Full Proposal** at the end of this README.
 
 
----
-<img width="450" height="450" alt="PM" src="https://github.com/user-attachments/assets/114063a7-0f6f-4354-abc1-5d508cdd8cbc" />
-
----
 The project emphasizes:
 - **Real-time object recognition & tracking** for landing zone detection.  
 - **Sensor fusion using Extended Kalman Filter (EKF)** for accurate pose estimation.  
