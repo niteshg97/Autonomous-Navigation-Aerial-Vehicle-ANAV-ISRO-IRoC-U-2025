@@ -13,6 +13,11 @@ Designed for the **Indian Rover Challenge – Unmanned (IRoC-U) 2025**, this sys
 
 > 🧾 **Full proposal (PDF)** is available in `docs/` — see **Full Proposal** at the end of this README.
 
+
+---
+<img width="450" height="450" alt="PM" src="https://github.com/user-attachments/assets/114063a7-0f6f-4354-abc1-5d508cdd8cbc" />
+
+---
 The project emphasizes:
 - **Real-time object recognition & tracking** for landing zone detection.  
 - **Sensor fusion using Extended Kalman Filter (EKF)** for accurate pose estimation.  
